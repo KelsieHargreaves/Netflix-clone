@@ -66,3 +66,53 @@
 .more__cards{
     padding-left: 6%;
 }
+
+@media (max-width: 1024px){
+    .hero__caption .title__cards{
+        display: none;
+    }
+
+    .hero__btns{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 800px){
+    .hero__caption{
+        padding-left: 4%;
+    }
+
+    .caption__img{
+        margin-bottom: 10px;
+        width: 40%;
+    }
+
+    .hero__caption p{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .hero__btns .btn img{
+        width: 20px;
+    }
+
+    .more__cards{
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 500px){
+    .caption__img{
+        display: none;
+    }
+
+    .btn img{
+        width: 15px;
+    }
+
+    .hero__btns .btn{
+        padding: 4px 10px;
+        gap: 5px;
+        font-size: 10px;
+    }
+}
